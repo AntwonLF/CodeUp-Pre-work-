@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <title>My First HTML Form</title>
+    <h2>User login</h2>
+        <form method="POST" action="http://request-inspector.glitch.me/ ">
+        <div>
+            <label for="username">Username/Email</label>
+            <input id="username" name="username" type="text" placeholder="username001">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" placeholder="password001">
+        </div>
+        <div>
+            <button type="button">Login</button>
+        </div>
+    </form>
+    <h2>Compose an Email</h2>
+        <form method="POST" action="http://request-inspector.glitch.me/">
+           To: <br><input type="text" name="to" placeholder="Recipient"><br>
+           From: <br><input type="text" name="name" placeholder="Sender"><br> 
+           Subject: <br><input type="text" name="subject" placeholder="Subject"><br>
+             <br><input type="submit" value="Send">
+             <input type="checkbox" name="Save folder" checked>
+                <label for="checkbox">Save to sent folder</label>
+        </form>
+      <form method="POST" action="http://request-inspector.glitch.me/ ">
+        <h2>Multiple Choice Test</h2>
+        <p>Please select your favorite Web language:</p>
+          <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+          <input type="radio" id="css" name="fav_language" value="CSS">
+             <label for="css">CSS</label><br>
+          <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        
+          <br>  
+        
+          <p>Please select your age:</p>
+          <input type="radio" id="age1" name="age" value="30">
+            <label for="age1">0 - 30</label><br>
+          <input type="radio" id="age2" name="age" value="60">
+             <label for="age2">31 - 60</label><br>  
+          <input type="radio" id="age3" name="age" value="100">
+             <label for="age3">61 - 100</label><br><br>
+          <input type="submit" value="Submit">
+      </form>
+      <form method="POST" action="http://request-inspector.glitch.me/ ">
+        <h2>Select Testing</h2>
+           <label for="yes_no_radio">Do you agree to the terms?</label> <br>
+            <input type="radio" name="yes_no" checked value="1">Yes</input> <br>
+            <input type="radio" name="yes_no" value="0">No</input><br>
+            <input type="submit" value="Submit">
+        
+      </form>
+
+
+
+
+
+
+
+
+</html>
